@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj": {}
+    "C:\\Users\\User\\source\\repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj": {
+    "C:\\Users\\User\\source\\repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
         "projectName": "ALENGINE",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Source\\Repos\\rehotechgh\\SCRIPTMED-\\ALENGINE\\obj\\",
         "projectStyle": "PackageReference",

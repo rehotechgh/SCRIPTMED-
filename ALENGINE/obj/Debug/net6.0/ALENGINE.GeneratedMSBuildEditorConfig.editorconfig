@@ -9,375 +9,375 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ALENGINE
 build_property.RootNamespace = ALENGINE
-build_property.ProjectDir = C:\Users\User\Source\Repos\rehotechgh\SCRIPTMED-\ALENGINE\
+build_property.ProjectDir = C:\Users\User\source\repos\rehotechgh\SCRIPTMED-\ALENGINE\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Source\Repos\rehotechgh\SCRIPTMED-\ALENGINE
+build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\rehotechgh\SCRIPTMED-\ALENGINE
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddANC/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddANC/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQU5DXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddConsulting/Consult.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddConsulting/Consult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkQ29uc3VsdGluZ1xDb25zdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddDescription/index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddDescription/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkRGVzY3JpcHRpb25caW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddVitals/Viewvitals.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/AddVitals/Viewvitals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkVml0YWxzXFZpZXd2aXRhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANCHistory/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANCHistory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQU5DSGlzdG9yeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANCRecordList/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANCRecordList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQU5DUmVjb3JkTGlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANC/ViewANC.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ANC/ViewANC.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQU5DXFZpZXdBTkMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Bulksms/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Bulksms/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVsa3Ntc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Claims/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Claims/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Components/PatientTotal/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Components/PatientTotal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xQYXRpZW50VG90YWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ConsultingList/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ConsultingList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGluZ0xpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ConsultingReport/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ConsultingReport/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3VsdGluZ1JlcG9ydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DeliveryHistory/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DeliveryHistory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlIaXN0b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DispensaryList/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DispensaryList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGVuc2FyeUxpc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DispensaryReport/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/DispensaryReport/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGVuc2FyeVJlcG9ydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/DrugPurchase.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/DrugPurchase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGVuc2FyeVxEcnVnUHVyY2hhc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGVuc2FyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/SaveDrug.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Dispensary/SaveDrug.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzcGVuc2FyeVxTYXZlRHJ1Zy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/GHSOPDReport/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/GHSOPDReport/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR0hTT1BEUmVwb3J0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/GHS/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/GHS/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR0hTXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Home/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Home/Privacy.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/InitiatePayment/InitPayment.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/InitiatePayment/InitPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pdGlhdGVQYXltZW50XEluaXRQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/InventoryList/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/InventoryList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5TGlzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Inventory/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListDrugs/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListDrugs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdERydWdzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListPatient/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListPatient/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdFBhdGllbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListPatient/Search.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ListPatient/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdFBhdGllbnRcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/MalariaDataReturns/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/MalariaDataReturns/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFsYXJpYURhdGFSZXR1cm5zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/MonthlyMobidity/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/MonthlyMobidity/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9udGhseU1vYmlkaXR5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/OPDReport/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/OPDReport/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT1BEUmVwb3J0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/OPD/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/OPD/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT1BEXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/PatientHistory/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/PatientHistory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudEhpc3RvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Records/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Records/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVjb3Jkc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/Error.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_SaveDispensery.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_SaveDispensery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TYXZlRGlzcGVuc2VyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_Totalmales.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_Totalmales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3RhbG1hbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_TotalSales.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_TotalSales.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3RhbFNhbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdateLab/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdateLab/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlTGFiXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdatePayment/ApprovePayment.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdatePayment/ApprovePayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlUGF5bWVudFxBcHByb3ZlUGF5bWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdateRecords/index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/UpdateRecords/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXBkYXRlUmVjb3Jkc1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewANC/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewANC/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0FOQ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewClaims/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewClaims/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0NsYWltc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewDeliveryNote/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewDeliveryNote/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0RlbGl2ZXJ5Tm90ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewDrugs/DrugDetails.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewDrugs/DrugDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0RydWdzXERydWdEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewPostNatal/Index.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/ViewPostNatal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1Bvc3ROYXRhbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/_ViewImports.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/_ViewStart.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Source/Repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_Layout.cshtml]
+[C:/Users/User/source/repos/rehotechgh/SCRIPTMED-/ALENGINE/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-llrrn8tfgs
