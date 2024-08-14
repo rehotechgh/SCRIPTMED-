@@ -1,0 +1,390 @@
+﻿
+@model ALENGINE.Models.ViewModel.DTransactionViewModel
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- form-horizontal23:59-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>SCRIPT Medd</title>
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+    <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+
+    <div class="page-wrapper">
+
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card-box">
+
+                    <h4 class="card-title">Drug Sales</h4>
+                    <form method="post" asp-controller="ViewDrugs" asp-action="DrugDetails">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Item Name</label>
+                                    <div class="col-md-9">
+
+                                        @Html.TextBoxFor(m => m.ItemName, new { @class = "form-control", @readonly = "readonly", @id = "ItemName" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Manufacturing Date</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.ManufacturingDate, new { @class = "form-control", @readonly = "readonly", @id = "ManufacturingDate" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Expiry Date</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.ExpiryDate, new { @class = "form-control", @readonly = "readonly", @id = "ExpiryDate" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Quantity</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", @readonly = "readonly", @id = "Quantity" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Cost Price</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.CostPrice, new { @class = "form-control", @readonly = "readonly", @id = "CostPrice" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Sales Price</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.SalesPrice, new { @class = "form-control", @readonly = "readonly", @id = "SalesPrice" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Sales Quantity</label>
+                                    <div class="col-md-9">
+                                        <input type="text" asp-for="SalesQuantity" onchange="add_number()" class="form-control" id="SalesQuantity" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Sales Amount</label>
+                                    <div class="col-md-9">
+
+                                        <input type="text" onclick="sub_number()" asp-for="SalesAmount" id="Sales" class="form-control" />
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Manufacturer</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.Manufacturer, new { @class = "form-control", @readonly = "readonly", @id = "Manufacturer" })
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-6">
+                                        <button type="submit" class="btn btn-primary">Save Transaction</button> 
+                                    </div>
+                                    <div>@ViewBag.Message</div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div></div>
+                    </form>
+                    <div class="col-sm-6 col-md-3">
+                        @*<partial name="_SaveDispensery" model="Model"  />*@
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="overflow:auto">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+    <div class="notification-box">
+        <div class="msg-sidebar notifications msg-noti">
+            <div class="topnav-dropdown-header">
+                <span>Messages</span>
+            </div>
+            <div class="drop-scroll msg-list-scroll" id="msg_list">
+                <ul class="list-box">
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">R</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Richard Miles </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item new-message">
+                                <div class="list-left">
+                                    <span class="avatar">J</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">John Doe</span>
+                                    <span class="message-time">1 Aug</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">T</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Tarah Shropshire </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">M</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Mike Litorus</span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">C</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Catherine Manseau </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">D</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Domenic Houston </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">B</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Buster Wigton </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">R</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Rolland Webber </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">C</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author"> Claire Mapes </span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">M</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Melita Faucher</span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">J</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Jeffery Lalor</span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">L</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Loren Gatlin</span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="chat.html">
+                            <div class="list-item">
+                                <div class="list-left">
+                                    <span class="avatar">T</span>
+                                </div>
+                                <div class="list-body">
+                                    <span class="message-author">Tarah Shropshire</span>
+                                    <span class="message-time">12:28 AM</span>
+                                    <div class="clearfix"></div>
+                                    <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="topnav-dropdown-footer">
+                <a href="chat.html">See all messages</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-overlay" data-reff=""></div>
+
+
+    <script>function add_number() {
+            var first_number = parseInt(document.getElementById("SalesQuantity").value);
+            var second_number = parseInt(document.getElementById("SalesPrice").value);
+
+
+            var result = first_number * second_number;
+
+
+            // alert(result);
+            return document.getElementById("Sales").value = result;
+
+        }</script>
+
+    <script>function sub_number() {
+            var first_number = parseInt(document.getElementById("Quantity").value);
+    var second_number = parseInt(document.getElementById("SalesQuantity").value);
+
+
+            var result = first_number - second_number;
+
+
+            // alert(result);
+    return document.getElementById("Quantity").value = result;
+
+        }</script>
+
+
+
+
+
+    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.js"></script>
+    <script src="~/assets/js/select2.min.js"></script>
+    <script src="~/assets/js/app.js"></script>
+</body>
+
+
+<!-- form-horizontal23:59-->
+</html>

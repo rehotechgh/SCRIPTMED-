@@ -1,0 +1,246 @@
+﻿@model ALENGINE.Models.ViewModel.ANCViewModel
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/favicon.png" type="">
+
+    <title> scriptMEDD </title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+
+
+    <!-- fonts style -->
+    <link href="~/css2/custom.css" rel="stylesheet">
+    <link href="~/css2/boostraptable.css" rel="stylesheet">
+    <link href="~/css2/bootstrap4.css" rel="stylesheet">
+    <link href="~/css2/responsive.bootstrap4.css" rel="stylesheet">
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="~/css2/custom2.css" />
+
+    <!-- font awesome style -->
+    <link href="~/css2/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css2/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css2/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            scriptMEDD
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html"> View Records <span class="sr-only">(current)</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="departments.html">Patient History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="doctors.html">User Guide</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+
+    <!-- about section -->
+    <section>
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="container">
+                        <br />
+                        <div class="row">
+                            <h4>ANC| Consulting <hr /></h4>
+                        </div>
+                    </div>
+                    <form method="post" asp-controller="ANC" asp-action="ViewANC">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Registration No.</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.RegistrationNumber, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Surname</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Othernames</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.OtherNames, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Age</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.Age, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Sex</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.Sex, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">DOB</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(m => m.DOB, new { @class = "form-control", @readonly = "readonly" })
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Name of Husband</label>
+                                    <div class="col-md-9">
+                                        <input type="text" asp-for="Husband" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Contact of Husband</label>
+                                    <div class="col-md-9">
+                                        <input type="text" asp-for="HusbandContact" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Occupation of Husband</label>
+                                    <div class="col-md-9">
+                                        <input type="text" asp-for="HusbandOccupation" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Address of Husband</label>
+                                    <div class="col-md-9">
+                                        <input type="text" asp-for="HusbandAddress" class="form-control" required>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label"></label>
+                                    <div class="col-md-9">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                        <br/>
+                        <br/>
+                        <div>
+                            <script type="text/javascript">
+                                alert("@ViewBag.Message");
+                            </script>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- end about section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+           
+        </div>
+
+    </footer>
+    <!-- footer section -->
+    <!-- jQery -->
+
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/js2/query-3.7.1.js"></script>
+    <script type="text/javascript" src="~/js2/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="~/js2/dataTables.js"></script>
+    <script type="text/javascript" src="~/js2/data"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+
+
+</body>
+
+</html>
+

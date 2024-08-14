@@ -1,0 +1,71 @@
+﻿
+@model ALENGINE.Models.Inventory
+<form method="post" asp-controller="Dispensary" asp-action="SaveDrug">
+    <div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Item Name</label>
+                    <div class="col-md-9">
+
+                        @Html.TextBoxFor(m => m.ItemName, new { @class = "form-control", @readonly = "readonly", @id = "ItemName",@hidden="true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Manufacturing Date</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.ManufacturingDate, new { @class = "form-control", @readonly = "readonly", @id = "ManufacturingDate", @hidden = "true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Expiry Date</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.ExpiryDate, new { @class = "form-control", @readonly = "readonly", @id = "ExpiryDate" , @hidden = "true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Manufacturer</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.Manufacturer, new { @class = "form-control", @readonly = "readonly", @id = "ExpiryDate", @hidden = "true" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Quantity</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.Quantity, new { @class = "form-control", @readonly = "readonly", @id = "Quantity", @hidden = "true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Cost Price</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.CostPrice, new { @class = "form-control", @readonly = "readonly", @id = "CostPrice" , @hidden = "true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Sales Price</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(m => m.SalesPrice, new { @class = "form-control", @readonly = "readonly", @id = "SalesPrice", @hidden = "true" })
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Sales Quantity</label>
+                    <div class="col-md-9">
+                        <input type="text" asp-for="SalesQuantity" class="form-control" id="SalesQuantity" hidden="true"/>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-3 col-form-label" hidden="true">Sales Amount</label>
+                    <div class="col-md-9">
+                        <input type="text" asp-for="SalesAmount" value="@TempData["CurrentFilter"]" class="form-control" />
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="submit" />
+    </div>
+</form>
+

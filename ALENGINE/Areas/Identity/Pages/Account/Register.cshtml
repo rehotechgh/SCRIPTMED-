@@ -1,0 +1,146 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+
+
+
+
+ @*<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modernize Free</title>
+  <link rel="shortcut icon" type="image/png" href="~/assets/images/logos/favicon.png" />
+  <link rel="stylesheet" href="~/assets/css/styles.min.css" />
+</head>
+
+<body>
+  <!--  Body Wrapper -->
+  <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+    data-sidebar-position="fixed" data-header-position="fixed">
+    <div
+      class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center w-100">
+        <div class="row justify-content-center w-100">
+          <div class="col-md-8 col-lg-6 col-xxl-3">
+            <div class="card mb-0">
+              <div class="card-body">
+                <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
+                 <h4>AGAPE SMS PORTAL</h4>
+                </a>
+                <p class="text-center">Create User Account</p>
+                      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                  <div class="mb-3">
+                   <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Email"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+                  </div>
+                  <div class="mb-4">
+                      <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.Password"></label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+                  </div>
+                      <div class="mb-4">
+                      <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.ConfirmPassword"></label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                  </div>
+               
+
+                            <div>
+                    <button id="registerSubmit" type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Log in</button>
+                </div>
+                  
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
+  <script src="~/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>*@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- register24:03-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="~/assets/img/favicon.ico">
+    <title>SCRIPT Medd</title>
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper  account-wrapper">
+        <div class="account-page">
+            <div class="account-center">
+                <div class="account-box">
+                      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+						<div class="account-logo">
+                            <a href="index-2.html"><img src="~/assets/img/logo-dark.png" alt=""> SCRIPT Medd 1.0</a>
+                        </div>
+                        <div class="form-group">
+                           
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                        </div>
+                       
+                          
+               
+                        <div class="form-group">
+                          
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+
+                        </div>
+                        <div class="form-group">
+                             <label asp-for="Input.ConfirmPassword"></label>
+              <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+               
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+                        </div>
+                       
+                        <div class="form-group text-center">
+                          
+                             <button id="registerSubmit" type="submit" class="btn btn-primary account-btn">Log in</button>
+                        </div>
+                        <div class="text-center login-link">
+                            Already have an account? <a asp-page="./Login">Login</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/app.js"></script>
+</body>
+
+
+<!-- register24:03-->
+</html>
+
+

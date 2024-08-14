@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\User\Source\Repos\rehotechgh\SciptMed3_0\ALENGINE\bin/Release/net6.0/publish</_PublishTargetUrl>
+    <History>True|2024-08-14T11:55:08.0209248Z||;True|2024-07-20T09:58:14.2534863-07:00||;True|2024-07-19T07:54:03.1925898-07:00||;True|2024-02-02T11:37:47.1030768-08:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
