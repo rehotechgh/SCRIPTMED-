@@ -36,10 +36,6 @@ namespace ALENGINE.Models
 
 
 
-        public DateTime DateCreated { get; set; } = DateTime.Now.Date;
-
-
-
 
 
     }
