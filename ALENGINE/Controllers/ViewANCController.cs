@@ -29,7 +29,7 @@ namespace ALENGINE.Controllers
             // return View(obj);
             adddescription();
             medlist();
-            DiagnosisCategory();
+           // DiagnosisCategory();
             var showdatabyID = _db.ANCs.FirstOrDefault(m => m.Id == id);
             var vm = ViewANCDetailsModel.ANCDetails(showdatabyID);
 
@@ -168,18 +168,18 @@ namespace ALENGINE.Controllers
             );
             ViewBag.Medlist = description;
         }
-        private void DiagnosisCategory()
-        {
+      //  private void DiagnosisCategory()
+      //  {
 
-            var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
-            {
-                Text = x.Id,
-                Value = x.Id
-            }
+       //     var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
+         //   {
+           //     Text = x.Id,
+             //   Value = x.Id
+          //  }
 
-            );
-            ViewBag.DiagnosisCategory = description;
-        }
+         //   );
+         //   ViewBag.DiagnosisCategory = description;
+      //  }
     }
 }
 

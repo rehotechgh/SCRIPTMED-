@@ -23,11 +23,20 @@ namespace ALENGINE.Controllers
         [HttpPost]
         public IActionResult Index([FromForm] Diagnose obj)
         {
-           _db.Diagnoses.Add(obj);
+           try
+           {
+            _db.Diagnoses.Add(obj);
             _db.SaveChanges();
             ViewBag.Message = "Description Details Saved Successfully!";
             ModelState.Clear();
-            return View();
+       
+           }
+           catch (System.Exception)
+           {
+            
+           ViewBag.Message = "Operation Unsuccessful! Try Again";
+           }
+     return View();
 
         }
     }

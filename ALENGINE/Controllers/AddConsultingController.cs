@@ -35,7 +35,7 @@ namespace ALENGINE.Controllers
             // return View(obj);
             adddescription();
             medlist();
-            DiagnosisCategory();
+           DiagnosisCategory();
             var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.Id == id);
             var vm = ConsultingViewModel.ViewInitData(showdatabyID);
 
@@ -128,24 +128,6 @@ namespace ALENGINE.Controllers
                 HistoryIntake = obj.HistoryIntake
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             };
             _db.Centrals.Add(serviceRequest);
             _db.SaveChanges();
@@ -182,18 +164,18 @@ namespace ALENGINE.Controllers
             );
             ViewBag.Medlist = description;
         }
-        private void DiagnosisCategory()
-        {
+       private void DiagnosisCategory()
+       {
 
-            var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
-            {
-                Text = x.Id,
-                Value = x.Id
-            }
+          var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
+           {
+               Text = x.Category,
+               Value = x.Category
+           }
 
-            );
-            ViewBag.DiagnosisCategory = description;
-        }
+          );
+         ViewBag.DiagnosisCategory = description;
+      }
     }
 }
 

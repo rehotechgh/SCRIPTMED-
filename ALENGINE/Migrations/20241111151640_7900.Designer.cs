@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ALENGINE.Migrations
 {
     [DbContext(typeof(ALENGINEContext))]
-    [Migration("20240813001930_bnk")]
-    partial class bnk
+    [Migration("20241111151640_7900")]
+    partial class _7900
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -1037,8 +1037,11 @@ namespace ALENGINE.Migrations
 
             modelBuilder.Entity("ALENGINE.Models.DiagnosisCategory", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
