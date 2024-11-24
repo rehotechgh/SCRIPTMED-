@@ -119,6 +119,12 @@
                                                     @Html.TextBoxFor(m => m.OtherNames, new { @class = "form-control", @readonly = "readonly" })
                                                 </div>
                                             </div>
+                                            <div class="form-group row">
+                                                <label class="col-md-3 col-form-label">PID</label>
+                                                <div class="col-md-9">
+                                                    @Html.TextBoxFor(m => m.PatientInformationId, new { @class = "form-control", @readonly = "readonly" })
+                                                </div>
+                                            </div>
 
                                         </div>
                                         <div class="col-md-6">
@@ -306,88 +312,110 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <div>
+                            <!--
+                                        <div>
 
-                                    <h4 class="card-title">Lab Request/Dispensary/Appointment</h4>
+                                        <h4 class="card-title">Lab Request/Dispensary/Appointment</h4>
 
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-group row">
-                                                <label class="col-md-3 col-form-label">Lab Request</label>
-                                                <div class="col-md-9">
-                                                    <select class="form-control" asp-for="LabRequest" required>
-                                                        <option select>Select</option>
-                                                        <option>Yes</option>
-                                                        <option>No</option>
-                                                    </select>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 col-form-label">Lab Request</label>
+                                                    <div class="col-md-9">
+                                                        <select class="form-control" asp-for="LabRequest" required>
+                                                            <option select>Select</option>
+                                                            <option>Yes</option>
+                                                            <option>No</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group row">
+                                                <div class="form-group row">
 
-                                                <label class="col-md-3 col-form-label">Lab Type</label>
-                                                <div class="col-md-9">
-                                                    <input type="text" class="form-control" asp-for="LabType" required />
+                                                    <label class="col-md-3 col-form-label">Lab Type</label>
+                                                    <div class="col-md-9">
+                                                        <input type="text" class="form-control" asp-for="LabType" required />
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label class="col-md-3 col-form-label">Dispensary</label>
-                                                <div class="col-md-9">
-                                                    <select class="form-control" asp-for="Dispensary" required>
-                                                        <option select>Select</option>
-                                                        <option>Yes</option>
-                                                        <option>No</option>
-                                                    </select>
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 col-form-label">Dispensary</label>
+                                                    <div class="col-md-9">
+                                                        <select class="form-control" asp-for="Dispensary" required>
+                                                            <option select>Select</option>
+                                                            <option>Yes</option>
+                                                            <option>No</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="form-group row">
+                                                <div class="form-group row">
 
-                                                <label class="col-md-3 col-form-label">Dispensary Type</label>
-                                                <div class="col-md-9">
-                                                    <select class="form-control" asp-for="DispensaryType" required>
-                                                        <option selected>Select</option>
-                                                        <option>Own Facility</option>
-                                                        <option>Off-Premise</option>
+                                                    <label class="col-md-3 col-form-label">Dispensary Type</label>
+                                                    <div class="col-md-9">
+                                                        <select class="form-control" asp-for="DispensaryType" required>
+                                                            <option selected>Select</option>
+                                                            <option>Own Facility</option>
+                                                            <option>Off-Premise</option>
 
-                                                    </select>
+                                                        </select>
+                                                    </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="form-group row">
-                                            </div>
+                                                <div class="form-group row">
+                                                </div>
 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 col-form-label">Set Appointment</label>
+                                                    <div class="col-md-9">
+                                                        <select class="form-control" asp-for="SetAppointment" required>
+                                                            <option selected>Select</option>
+                                                            <option>Yes</option>
+                                                            <option>No</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                </div>
+                                                <div class="form-group row">
+                                                </div>
+
+                                                <div class="form-group row">
+                                                    <label class="col-md-3 col-form-label">Appointment Date</label>
+                                                    <div class="col-md-9">
+                                                        <input type="date" class="form-control" asp-for="AppointmentDate" />
+                                                    </div>
+                                                </div>
+
+                                            </div>
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group row">
-                                                <label class="col-md-3 col-form-label">Set Appointment</label>
-                                                <div class="col-md-9">
-                                                    <select class="form-control" asp-for="SetAppointment" required>
-                                                        <option selected>Select</option>
-                                                        <option>Yes</option>
-                                                        <option>No</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                            </div>
-                                            <div class="form-group row">
-                                            </div>
 
-                                            <div class="form-group row">
-                                                <label class="col-md-3 col-form-label">Appointment Date</label>
-                                                <div class="col-md-9">
-                                                    <input type="date" class="form-control" asp-for="AppointmentDate" />
-                                                </div>
-                                            </div>
 
-                                        </div>
+
+
                                     </div>
+                                -->
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
 
+                            <div class="col-sm-12">
+                                <label>Lab Request </label>
 
+                                <div class="row">
+
+                                    <div class="col-md-12">
+                                        <textarea asp-for="LabResult" class="form-control" required>
+
+                                      </textarea>
+
+                                    </div>
 
 
                                 </div>
                             </div>
                         </div>
+                        <br />
                         <br />
                         <div class="row">
 
@@ -629,7 +657,7 @@
                                                         </select>
                                                     </div>
                                                     <div class="form-group">
-                                                        <select asp-for="DiagnosisCategory5" asp-items="@ViewBag.Description" class="form-control">
+                                                        <select asp-for="DiagnosisCategory5" asp-items="@ViewBag.DiagnosisCategory" class="form-control">
                                                             <option value="-1" selected="selected">---Select Diagnostic Category---</option>
                                                         </select>
                                                     </div>

@@ -20,7 +20,7 @@ namespace ALENGINE.Controllers
         {
             // return View(obj);
 
-            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.Id == id);
+            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.PatientInformationId == id);
            // var vm = CentralViewModel.ViewInitData(showdatabyID);
 
 

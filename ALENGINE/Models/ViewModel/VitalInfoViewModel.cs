@@ -20,7 +20,7 @@ namespace ALENGINE.Models.ViewModel
         public string? Condition { get; set; }
 
         public string? CCC { get; set; }
-
+        public int PatientInformationId { get; set; }
 
         public DateTime DateCreated { get; set; } = DateTime.Now;
 
@@ -34,8 +34,8 @@ namespace ALENGINE.Models.ViewModel
                 RegistrationNumber = obj.RegistrationNumber,
                 Surname = obj.Surname,
                 OtherNames = obj.OtherNames,
-                CCC = obj.CCC  
-               
+                CCC = obj.CCC,
+                PatientInformationId = obj.PatientInformationId
 
 
 
@@ -47,7 +47,7 @@ namespace ALENGINE.Models.ViewModel
 
 
 
-            };
+    };
         }
     }
 }

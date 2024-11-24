@@ -125,7 +125,9 @@ namespace ALENGINE.Controllers
                 IGDRG5 = obj.IGDRG5,  
                 TUNIT  = obj.TUNIT,
                 ClaimsStatus = obj.ClaimsStatus,
-                HistoryIntake = obj.HistoryIntake
+                HistoryIntake = obj.HistoryIntake,
+                PatientInformationId = obj.PatientInformationId
+                
 
 
             };

@@ -17,7 +17,7 @@ namespace ALENGINE.Models
 
         public string? Condition { get; set; }
         public string? CCC { get; set; }
-
+        public int PatientInformationId { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.Now.Date;
 
     }

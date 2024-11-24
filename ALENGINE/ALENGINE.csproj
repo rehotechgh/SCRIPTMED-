@@ -62,6 +62,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Migrations\" />
     <Folder Include="NewFolder\" />
     <Folder Include="Views\Records\" />
     <Folder Include="Views\InitiatePayment\" />

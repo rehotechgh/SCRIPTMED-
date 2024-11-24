@@ -1,0 +1,532 @@
+﻿@model PatientInformation
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/favicon.png" type="">
+
+    <title> scriptMEDD </title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+
+
+    <!-- fonts style -->
+    <link href="~/css2/custom.css" rel="stylesheet">
+    <link href="~/css2/boostraptable.css" rel="stylesheet">
+    <link href="~/css2/bootstrap4.css" rel="stylesheet">
+    <link href="~/css2/responsive.bootstrap4.css" rel="stylesheet">
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="~/css2/custom2.css" />
+
+    <!-- font awesome style -->
+    <link href="~/css2/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css2/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css2/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="/">
+                        <span>
+                            scriptMEDD
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home </a>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+
+    <!-- about section -->
+    <!-- about section -->
+    <section>
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="container">
+                        <br />
+                        <div class="row">
+                            <h4>Records | Patient Details <hr ></h4>
+                        </div>
+                        <div class="container">
+                            <div class="main-body">
+
+                                <!-- Breadcrumb -->
+                                <nav aria-label="breadcrumb" class="main-breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Patient</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Patient Profile</li>
+                                    </ol>
+                                </nav>
+                                <!-- /Breadcrumb -->
+
+                                <div class="row gutters-sm">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="d-flex flex-column align-items-center text-center">
+                                                    <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
+                                                    <div class="mt-3">
+                                                        <h4>@Model.Surname @Model.OtherNames</h4>
+                                                        <p class="text-secondary mb-1">@Model.Occupation</p>
+                                                        <p class="text-muted font-size-sm">@Model.HomeAddress</p>
+                                                        <!--<button class="btn btn-primary">Follow</button>
+                                                        <button class="btn btn-outline-primary">Message</button>-->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-3">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                   <p>First Visit : @Model.DateCreated</p>
+                                                  
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                    <p>Gender : @Model.Sex</p>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                    <p>Date of Birth : @Model.DOB</p>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                    <p>Age : @Model.Age</p>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                    <p>Address : @Model.HomeAddress</p>
+                                                </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                                    <p>NHIS No. : @Model.HealthInsuranceNumber</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card mb-3">
+                                            <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Health Facility Number: </h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.HealthFacilityNo
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">SPCODE</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.SPCODE
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Facility Name</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.FacilityName
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Marital Status</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.MaritalStatus
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Occupation</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.Occupation
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Religion</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.Religion
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Postal Address</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.PostalAddress
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Nearest Relative</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.NameOfNearestRelative
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Address of Relative</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.PostalAddress
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Contact of Relative</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.ContactOfNearestRealtive
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">District</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.District
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Home Address</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.HomeAddress
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Email</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.Email
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Sub/District/Local</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.SubDistrict_Locality
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Name of Health Insurance</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.NameOfHealthInsuranceScheme
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-3">
+                                                        <h6 class="mb-0">Health Insurance ID No.</h6>
+                                                    </div>
+                                                    <div class="col-sm-9 text-secondary">
+                                                        @Model.HealthInsuranceSchemeIDNumber
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                       <strong>Patient Previous History</strong>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="table-responsive">
+                                                                <table id="myTable" class="table table-striped custom-table mb-0 datatable fs-2">
+                                                                    <thead>
+                                                                        <tr>
+
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnoses</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Diagnosis Category</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Drugs</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Dossage</th>
+                                                                            <th>Date</th>
+
+                                                                           
+
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+
+                                                                        @foreach (var rs in Model.Centrals.Where(x => x.RegistrationNumber == @ViewBag.P.RegistrationNumber))
+                                                                        {
+
+                                                                            <tr>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis1</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis2</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis3</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis4</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis5</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.Diagnosis6</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory1</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory2</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory3</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory4</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory5</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DiagnosisCategory6</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD1</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD2</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD3</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD4</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD5</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DICD6</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG1</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG2</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG3</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG4</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG5</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DIDRG6</p>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <p>@rs.DateCreated</p>
+                                                                                </td>
+                                                                            </tr>
+                                                                            
+
+                                                                        }
+
+                                                                    </tbody>
+
+
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                               
+                                            </div>
+                                        </div>
+
+                                       
+
+
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <form asp-action="index" method="get" role="form">
+                        <div class="row filter-row">
+
+                           
+
+
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="table-responsive">
+                                    </div>
+                                </div>
+                            </div>
+
+                         </div>
+                      <br />
+                    </form>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- end about section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+        </div>
+
+    </footer>
+    <!-- footer section -->
+    <!-- jQery -->
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }</script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/js/jquery.slimscroll.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/js2/query-3.7.1.js"></script>
+    <script type="text/javascript" src="~/js2/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="~/js2/dataTables.js"></script>
+    <script type="text/javascript" src="~/js2/data"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+
+
+</body>
+
+</html>

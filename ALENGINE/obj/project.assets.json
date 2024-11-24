@@ -11207,24 +11207,31 @@
     ]
   },
   "packageFolders": {
-    "/home/kay/.nuget/packages/": {}
+    "C:\\Users\\Kobina Lawson\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kay/source/SCRIPTMED-/ALENGINE/ALENGINE.csproj",
+      "projectUniqueName": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
       "projectName": "ALENGINE",
-      "projectPath": "/home/kay/source/SCRIPTMED-/ALENGINE/ALENGINE.csproj",
-      "packagesPath": "/home/kay/.nuget/packages/",
-      "outputPath": "/home/kay/source/SCRIPTMED-/ALENGINE/obj/",
+      "projectPath": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\ALENGINE.csproj",
+      "packagesPath": "C:\\Users\\Kobina Lawson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/kay/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Kobina Lawson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11237,7 +11244,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -11293,8 +11306,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.427/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

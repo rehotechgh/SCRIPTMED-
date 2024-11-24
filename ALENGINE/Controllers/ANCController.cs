@@ -30,7 +30,7 @@ namespace ALENGINE.Controllers
         public IActionResult ViewANC(int id)
         {
             // return View(obj);
-            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.Id == id);
+            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.PatientInformationId == id);
             var vm = ANCViewModel.ANCData(showdatabyID);
 
 

@@ -27,6 +27,7 @@ public class ALENGINEContext : IdentityDbContext<IdentityUser>
     public DbSet<MedicineList> MedicineLists { get; set; }
     public DbSet<Postnatal> Postnatals { get; set; }
     public DbSet<DiagnosisCategory> DiagnosisCategories { get; set; }
+    public DbSet<LabRequest> LabRequests { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

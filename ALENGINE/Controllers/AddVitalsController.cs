@@ -54,8 +54,8 @@ namespace ALENGINE.Controllers
                 Temperature = obj.Temperature,
                 Pulse = obj.Pulse,
                 SP02 = obj.SP02,
-                CCC = obj.CCC
-
+                CCC = obj.CCC,
+                PatientInformationId = obj.PatientInformationId
 
 
 

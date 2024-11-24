@@ -674,6 +674,9 @@ namespace ALENGINE.Migrations
                     b.Property<string>("PDescription3")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PatientInformationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Pdate1")
                         .HasColumnType("nvarchar(max)");
 
@@ -723,6 +726,8 @@ namespace ALENGINE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PatientInformationId");
 
                     b.ToTable("Centrals");
                 });
@@ -1081,6 +1086,9 @@ namespace ALENGINE.Migrations
                     b.Property<string>("OtherNames")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PatientInformationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("RegistrationNumber")
                         .HasColumnType("nvarchar(max)");
 
@@ -1190,6 +1198,28 @@ namespace ALENGINE.Migrations
                     b.ToTable("InventoryTransactions");
                 });
 
+            modelBuilder.Entity("ALENGINE.Models.LabRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LabRequestDetails")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PatientInformationId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("LabRequests");
+                });
+
             modelBuilder.Entity("ALENGINE.Models.MedicineList", b =>
                 {
                     b.Property<int>("Id")
@@ -1272,11 +1302,11 @@ namespace ALENGINE.Migrations
 
             modelBuilder.Entity("ALENGINE.Models.PatientInformation", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("PatientInformationId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PatientInformationId"), 1L, 1);
 
                     b.Property<int>("Age")
                         .HasColumnType("int");
@@ -1356,7 +1386,7 @@ namespace ALENGINE.Migrations
                     b.Property<string>("Telephone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("PatientInformationId");
 
                     b.ToTable("PatientInformations");
                 });
@@ -1634,6 +1664,9 @@ namespace ALENGINE.Migrations
                     b.Property<string>("OtherNames")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("PatientInformationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Pulse")
                         .HasColumnType("nvarchar(max)");
 
@@ -1859,6 +1892,15 @@ namespace ALENGINE.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("ALENGINE.Models.Central", b =>
+                {
+                    b.HasOne("ALENGINE.Models.PatientInformation", null)
+                        .WithMany("Centrals")
+                        .HasForeignKey("PatientInformationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -1908,6 +1950,11 @@ namespace ALENGINE.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ALENGINE.Models.PatientInformation", b =>
+                {
+                    b.Navigation("Centrals");
                 });
 #pragma warning restore 612, 618
         }

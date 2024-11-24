@@ -93,20 +93,18 @@
                                 <div class="form-group form-focus">
 
                                     <div class="cal-icon">
-                                        <input type="text" name="Searchstring" class="form-control" placeholder="Enter Member ID here" value="@ViewData["CurrentFilter"]" />
+                                        <input type="text" class="form-control" placeholder="Enter Member ID here" id="myInput" onkeyup="myFunction()" />
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div class="col-sm-6 col-md-3">
-                                <input type="submit" value="Search" class="btn btn-success" />
-                            </div>
+                         
 
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="table-responsive">
-                                        <table class="table table-striped custom-table mb-0 datatable fs-2">
+                                        <table id="myTable"  class="table table-striped custom-table mb-0 datatable fs-2">
                                             <thead>
                                                 <tr>
 
@@ -148,7 +146,7 @@
                                                         <td>
                                                             <strong>@obj.HealthFacilityNo</strong>
                                                         </td>
-                                                        <td><a asp-route-id="@obj.RegistrationNumber" asp-controler="ListPatient" asp-action="Search">@obj.RegistrationNumber</a></td>
+                                                        <td><a asp-route-id="@obj.RegistrationNumber" asp-controler="ListPatient" asp-action="Details">@obj.RegistrationNumber</a></td>
                                                         <td>@obj.FacilityName</td>
                                                         <td>@obj.RegistrationDate</td>
                                                         <td>@obj.Surname</td>
@@ -184,8 +182,8 @@
                                                             <div class="dropdown dropdown-action">
                                                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                                                 <div class="dropdown-menu dropdown-menu-right">
-                                                                    <a class="dropdown-item" asp-controller="InitiatePayment" asp-action="InitPayment" asp-route-id="@obj.Id"><i class="fa fa-currency m-r-5"></i>OPD Request</a>
-                                                                    <a class="dropdown-item" asp-controller="UpdateRecords" asp-action="Index" asp-route-id="@obj.Id"><i class="fa fa-trash-o m-r-5"></i> Edit Record</a>
+                                                                    <a class="dropdown-item" asp-controller="InitiatePayment" asp-action="InitPayment" asp-route-id="@obj.PatientInformationId"><i class="fa fa-currency m-r-5"></i>OPD Request</a>
+                                                                    <a class="dropdown-item" asp-controller="UpdateRecords" asp-action="Index" asp-route-id="@obj.PatientInformationId"><i class="fa fa-trash-o m-r-5"></i> Edit Record</a>
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -225,7 +223,28 @@
     </footer>
     <!-- footer section -->
     <!-- jQery -->
-  
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }</script>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

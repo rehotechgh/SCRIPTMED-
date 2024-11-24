@@ -172,6 +172,12 @@
                                             </div>
                                         </div>
                                         <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">PID</label>
+                                            <div class="col-md-6 mb-4">
+                                                @Html.TextBoxFor(m => m.PatientInformationId, new { @class = "form-control", @readonly = "readonly" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
                                             <label class="col-md-6 col-form-label">CCC.</label>
                                             <div class="col-md-6 mb-4">
                                                 @Html.TextBoxFor(m => m.CCC, new { @class = "form-control", @placeholder = "Enter Generated C.C.C", @maxlength = "5" })

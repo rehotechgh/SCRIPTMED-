@@ -94,7 +94,8 @@ namespace ALENGINE.Models.ViewModel
         public string? Condition { get; set; }
         public string? Temperature { get; set; }
         public string? HistoryIntake { get; set; }
-       
+        public int PatientInformationId { get; set; }
+
 
         public DateTime DateCreated { get; set; } = DateTime.Now;
 
@@ -113,8 +114,11 @@ namespace ALENGINE.Models.ViewModel
                 BloodPressure = obj.BloodPressure,
                 Condition = obj.Condition,
                 CCC = obj.CCC,
-                Temperature = obj.Temperature
-               
+                Temperature = obj.Temperature,
+                PatientInformationId = obj.PatientInformationId
+
+
+
 
 
 

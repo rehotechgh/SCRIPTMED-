@@ -95,5 +95,9 @@
         public string? HIVStatus { get; set; }
         public string? SicklingStatus { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.Now;
+        //navigation property
+        public int PatientInformationId { get; set; }
+       // public PatientInformation? patientinfo { get; set; }
+       
     }
 }

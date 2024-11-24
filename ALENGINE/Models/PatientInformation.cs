@@ -1,12 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ALENGINE.Models
 {
     public class PatientInformation
     {
-        public int Id { get; set; }
+        [Key]
+        public int PatientInformationId { get; set; }
 
         public string? HealthFacilityNo { get; set; }
+        
         public string? RegistrationNumber { get; set; }
         public string? SPCODE { get; set; }
 
@@ -32,6 +35,10 @@ namespace ALENGINE.Models
         public string? HealthInsuranceNumber { get; set; }
         public string? HealthInsuranceSchemeIDNumber { get; set; }
         public string? Payment { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.Now.Date;
+       
+        //navigation
+        public List<Central>? Centrals { get; set; }
 
 
 

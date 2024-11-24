@@ -33,7 +33,7 @@ namespace ALENGINE.Controllers
         public IActionResult InitPayment(int id)
         {
             // return View(obj);
-            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.Id == id);
+            var showdatabyID = _db.PatientInformations.FirstOrDefault(m => m.PatientInformationId == id);
             var vm = InitiatePaymentViewModel.ViewInitData(showdatabyID);
 
 
@@ -57,11 +57,12 @@ namespace ALENGINE.Controllers
                 Age = obj.Age,
                 Sex = obj.Sex,
                 DateOfFirstVisit = obj.DateCreated.ToString(),
-                CCC = obj.CCC
+                CCC = obj.CCC,
+                PatientInformationId=obj.PatientInformationId
 
 
 
-            };
+    };
 
             _db.InitialPayments.Add(serviceRequest);
             _db.SaveChanges();
