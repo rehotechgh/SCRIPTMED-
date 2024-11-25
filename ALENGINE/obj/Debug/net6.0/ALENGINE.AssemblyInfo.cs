@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ALENGINE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9503b85f58d1c763c9e79dc19b8f8aa60eed998")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b7ee6fe70d30b93a0defb7f26cc7acb70d5d17d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ALENGINE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ALENGINE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1206,8 +1206,14 @@ namespace ALENGINE.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("ClinicalDiagnoses")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("DateCreated")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("FacilityNo")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LabRequestDetails")
                         .HasColumnType("nvarchar(max)");
@@ -1215,7 +1221,21 @@ namespace ALENGINE.Migrations
                     b.Property<int>("PatientInformationId")
                         .HasColumnType("int");
 
+                    b.Property<string>("PatientType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RequestPreparedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RequestingPhysician")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("VitalInfoId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("VitalInfoId");
 
                     b.ToTable("LabRequests");
                 });
@@ -1901,6 +1921,13 @@ namespace ALENGINE.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ALENGINE.Models.LabRequest", b =>
+                {
+                    b.HasOne("ALENGINE.Models.VitalInfo", null)
+                        .WithMany("LabRequests")
+                        .HasForeignKey("VitalInfoId");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -1955,6 +1982,11 @@ namespace ALENGINE.Migrations
             modelBuilder.Entity("ALENGINE.Models.PatientInformation", b =>
                 {
                     b.Navigation("Centrals");
+                });
+
+            modelBuilder.Entity("ALENGINE.Models.VitalInfo", b =>
+                {
+                    b.Navigation("LabRequests");
                 });
 #pragma warning restore 612, 618
         }

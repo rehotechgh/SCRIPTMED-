@@ -71,7 +71,6 @@
     <Folder Include="Views\AddVitals\" />
     <Folder Include="Views\OPDReport\" />
     <Folder Include="Views\ConsultingList\" />
-    <Folder Include="Views\AddConsulting\" />
     <Folder Include="Views\ConsultingReport\" />
     <Folder Include="Views\Inventory\" />
     <Folder Include="Views\InventoryList\" />

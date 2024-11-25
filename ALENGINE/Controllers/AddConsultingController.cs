@@ -7,6 +7,7 @@ using ALENGINE.Models;
 using ALENGINE.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -36,6 +37,17 @@ namespace ALENGINE.Controllers
             adddescription();
             medlist();
            DiagnosisCategory();
+            var showdatabyID = _db.VitalInfos.Include(m=>m.LabRequests).FirstOrDefault(m => m.Id == id);
+            var vm = ConsultingViewModel.ViewInitData(showdatabyID);
+
+
+
+            return View(vm);
+        }
+        public IActionResult LabRequest(int id)
+        {
+            // return View(obj);
+          
             var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.Id == id);
             var vm = ConsultingViewModel.ViewInitData(showdatabyID);
 
@@ -43,6 +55,36 @@ namespace ALENGINE.Controllers
 
             return View(vm);
         }
+        [HttpPost]
+        public IActionResult LabRequest([FromForm] ConsultingViewModel obj)
+        {
+            var serviceRequest = new LabRequest
+
+            {
+               
+                PatientInformationId = obj.PatientInformationId,
+                FacilityNo = obj.FacilityNo,
+                PatientType=obj.PatientType,
+                RequestingPhysician = obj.RequestingPhysician,
+                RequestPreparedBy = obj.RequestPreparedBy,
+                ClinicalDiagnoses = obj.ClinicalDiagnoses,
+                LabRequestDetails = obj.LabRequestDetails
+
+
+
+
+
+            };
+            _db.LabRequests.Add(serviceRequest);
+            _db.SaveChanges();
+            // return RedirectToAction("ServiceRequest", "GeneralUser");
+
+            ViewBag.Message = "Lab Details Saved Successfully!";
+            ModelState.Clear();
+            return View();
+        }
+
+
         [HttpPost]
         public IActionResult Consult([FromForm] ConsultingViewModel obj)
         {
