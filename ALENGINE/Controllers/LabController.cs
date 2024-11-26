@@ -31,7 +31,7 @@ namespace ALENGINE.Controllers
             return View(vm);
         }
         [HttpPost]
-        public IActionResult LabRequest([FromForm] LabViewModel obj)
+        public IActionResult Labdisplay([FromForm] LabViewModel obj)
         {
             var serviceRequest = new LabRequest
 

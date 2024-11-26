@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ALENGINE.Data;
 using ALENGINE.Models;
 using ALENGINE.Models.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ namespace ALENGINE.Controllers
             _db = db;
         }
 
+        
         // GET: /<controller>/
         public IActionResult Index()
         {

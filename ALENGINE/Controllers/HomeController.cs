@@ -28,7 +28,7 @@ namespace ALENGINE.Controllers
             _db = db;
         }
 
-   //     [Authorize]
+        [Authorize]
         public IActionResult Index()
         {
             totalrecords();

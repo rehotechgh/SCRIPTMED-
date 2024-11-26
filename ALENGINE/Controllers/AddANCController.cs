@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using ALENGINE.Data;
 using ALENGINE.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -24,7 +25,7 @@ namespace ALENGINE.Controllers
 
         // GET: /<controller>/
 
-
+        [Authorize]
         public IActionResult Index(string Searchstring)
         {
             IEnumerable<PatientInformation> objlist = _db.PatientInformations.Where(x=>x.Sex=="Female");

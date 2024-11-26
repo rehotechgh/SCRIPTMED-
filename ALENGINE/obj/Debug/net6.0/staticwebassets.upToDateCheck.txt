@@ -832,70 +832,16 @@ wwwroot\html\ui-buttons.html
 wwwroot\html\ui-card.html
 wwwroot\html\ui-forms.html
 wwwroot\html\ui-typography.html
-wwwroot\images\047e97fa-b5bb-4dd6-9028-981a38d07ac7_sampleimg.jpg
-wwwroot\images\09212189-933c-4d14-a5a2-c8f5bcf8545c_WhatsApp Image 2022-09-28 at 15.45.49.jpeg
-wwwroot\images\0bd4b516-5c68-4084-b46c-b2aff157f836_kbi.jpg
-wwwroot\images\139a2e60-f438-45df-b398-b5edc45ac32f_1623170297972.jpeg
-wwwroot\images\1860510f-11b9-4554-9a65-a6a41730e1f1.jpeg
-wwwroot\images\22d27291-781a-4841-9beb-2fdcce180f9c_IMG-20221129-WA0068.jpg
-wwwroot\images\24969885-8553-450a-be0c-184190e99fff_webb.jpg
-wwwroot\images\25562ec6-fd46-436e-b1c0-b4a9c13dec2d_Abigail2-800x533.jpg
-wwwroot\images\28e98a5d-9a44-4e7c-b2d9-15cd8fe6607a.jpeg
-wwwroot\images\3310ff5f-313a-43ca-ba0b-db650dca268b.jpeg
-wwwroot\images\3317e6a2-f67d-4604-a133-5ec7a1a8910b_waq.jpg
-wwwroot\images\37a5dac9-a285-4914-94be-2e4c27b12746_Waqaash.jpg
-wwwroot\images\45d49b11-cc43-47a5-b772-53e42fb9ccbd.png
-wwwroot\images\4c859d19-3699-4dda-9d24-e4e8a1f58193.jpeg
-wwwroot\images\53cffa85-f24a-4e3f-bf07-8fedaeded260_87fca18f-802a-4c37-9c67-d015facfe126.JPG
-wwwroot\images\659137eb-cb70-4f01-8c6c-10a6c55e7764.jpeg
-wwwroot\images\6b214099-a5ea-4479-8429-97571d2a3c32_lady.jpg
-wwwroot\images\6bfff2a3-7a24-420d-9fe7-b421a546d828_ff240042-06ed-4513-ad0a-e123d14bf7ac.JPG
-wwwroot\images\6e1c7d83-11c0-457f-80ec-858d39f22568_smp.jpg
-wwwroot\images\6e59906a-870c-4483-9051-fe23c20d8175.jpeg
-wwwroot\images\7481c5a7-c3ab-4465-8431-9346a323ec9b_profile.jpg
-wwwroot\images\74a9c444-34e5-4ee1-8a89-a64335dd507f_webb.jpg
-wwwroot\images\786e6d3f-7d5b-47b8-bd30-da01cc9370d0_Anti-ageing-image-1.jpg
-wwwroot\images\82a341d2-edf0-46ac-894c-7b2b94703b29_IMG-20221128-WA0013 (1).jpg
-wwwroot\images\84962449-02e3-49b1-ad92-15c90b6115cd.png
-wwwroot\images\89eb01d3-469b-4f40-b194-1a8b098ecc5f_IMG-20221129-WA0067.jpg
-wwwroot\images\8b64a65d-5fd6-420f-9c9c-e464665b79f7_IMG-20221128-WA0013 (1).jpg
-wwwroot\images\906d750c-57a4-4b6c-9335-160fc9f5383b_channels4_profile.jpg
-wwwroot\images\97f04ebc-0289-4020-9bbb-6df2484cfef7_ff240042-06ed-4513-ad0a-e123d14bf7ac.JPG
-wwwroot\images\a236c865-c3b0-49f3-912f-3fe1dc9f7c98_IMG_9327 (1).jpg
-wwwroot\images\a284ac75-a056-4df8-bc4d-b7e3ac78a7d6_profile.jpg
-wwwroot\images\a2c72d31-2d1c-490b-ad17-2cf225b6eb0f_channels4_profile.jpg
-wwwroot\images\a7462c89-336f-4d28-98d2-0215a438a8d0.jpeg
-wwwroot\images\ad541ef3-0ced-41c2-bd75-45824b40e328.png
-wwwroot\images\aefecf34-87a9-4b4d-9255-64d6978a99eb_webb.jpg
-wwwroot\images\AMSEROILLGO.png
-wwwroot\images\AMSEROILLGO-removebg-preview.png
-wwwroot\images\b6b3089c-45ee-4ad3-9af7-4164f5561d18.jpeg
+wwwroot\images\avt.png
 wwwroot\images\backgrounds\rocket.png
-wwwroot\images\bdacb596-d3e9-4731-9fe3-504549e17dda_WhatsApp Image 2022-09-28 at 15.46.35.jpeg
-wwwroot\images\c061c17d-cea1-45f9-a427-286f5286b091_channels4_profile.jpg
-wwwroot\images\c12e030d-8533-4540-a8a4-714f9eb72d53_KOJOCARD.png
-wwwroot\images\c93937d0-0bf5-4efc-accd-a0668bee9bb0_profile.jpg
-wwwroot\images\cb693d83-5481-4f49-8e8c-a363552d6b27_waq.jpg
-wwwroot\images\d8ac5f36-cdde-46ed-a93b-e7370a9a0f3f_IMG-20221129-WA0067.jpg
-wwwroot\images\e1b37f4e-0b63-49fb-aef1-0f9d5fd1b9d1.jpeg
-wwwroot\images\e2874083-37f6-4eb0-ae05-2b72c4b0476b_profile.jpg
-wwwroot\images\e3d9c591-d064-41ca-9e4b-f8989ce34e83_webb.jpg
-wwwroot\images\e3ee61f8-dbe1-4224-a79f-c92942693f13.jpeg
-wwwroot\images\f574c68a-987b-4d3d-abf6-b330fda7836c_test22.png
-wwwroot\images\f6045eb9-00f2-4c55-9fdb-f21d16a2a778_WhatsApp Image 2022-09-28 at 15.46.35.jpeg
-wwwroot\images\f82abf3c-db58-47f3-892e-c2223a57a1e7_Francis_Kojo_Asare_Yawson.JPG
 wwwroot\images\logos\dark-logo.svg
 wwwroot\images\logos\favicon.png
-wwwroot\images\noimage.jpg
-wwwroot\images\preview.png
 wwwroot\images\products\s1.jpg
 wwwroot\images\products\s11.jpg
 wwwroot\images\products\s4.jpg
 wwwroot\images\products\s5.jpg
 wwwroot\images\products\s7.jpg
 wwwroot\images\profile\user-1.jpg
-wwwroot\images\signin.svg
-wwwroot\images\warning_icon.png
 wwwroot\images2\about-img.jpg
 wwwroot\images2\client.jpg
 wwwroot\images2\cust.png
