@@ -90,7 +90,7 @@
                     <div class="container">
                         <br />
                         <div class="row">
-                            <h4>OPD  | Consulting List <hr /></h4>
+                            <h4>OPD  | Consulting List | <a href="/LabRequest" onclick="window.open(this.href, 'windowName', 'width=1000, height=700, left=24, top=24, scrollbars, resizable'); return false;">View Lab Request</a> <hr /></h4>
                         </div>
                     </div>
                     <form asp-action="index" method="get" role="form">
@@ -100,20 +100,18 @@
                                 <div class="form-group form-focus">
 
                                     <div class="cal-icon">
-                                        <input type="text" name="Searchstring" class="form-control" placeholder="Enter Member ID here" value="@ViewData["CurrentFilter"]" />
+                                        <input type="text" id="myInput" class="form-control" placeholder="Enter Member ID here" onkeyup="myFunction()" />
                                     </div>
                                 </div>
                             </div>
 
 
-                            <div class="col-sm-6 col-md-3">
-                                <input type="submit" value="Search" class="btn btn-success" />
-                            </div>
+                          
 
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="table-responsive">
-                                        <table class="table table-striped custom-table mb-0 datatable fs-2">
+                                        <table id="myTable"  class="table table-striped custom-table mb-50 datatable fs-2 vh-50">
                                             <thead>
                                                 <tr>
 
@@ -160,21 +158,14 @@
 
 
                                                         <td></td>
-                                                        <td class="text-center">
-                                                            <div class="dropdown action-label">
-
-                                                                <div class="dropdown-menu dropdown-menu-right">
-                                                                    <a class="dropdown-item" href="#">Pending</a>
-                                                                    <a class="dropdown-item" href="#">Approved</a>
-                                                                </div>
-                                                            </div>
-                                                        </td>
+                                                       
                                                         <td class="text-right">
-                                                            <div class="dropdown dropdown-action">
+                                                            <div class="dropdown dropdown-action vh-40">
                                                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-ellipsis-v"></i></a>
                                                                 <div class="dropdown-menu dropdown-menu-right">
                                                                     <a class="dropdown-item" asp-controller="AddConsulting" asp-action="Consult" asp-route-id="@obj.Id"><i class="fa fa-currency m-r-5"></i>Add Consultation</a>
                                                                     <a class="dropdown-item" asp-controller="AddConsulting" asp-action="LabRequest" asp-route-id="@obj.Id"><i class="fa fa-currency m-r-5"></i>Lab Request</a>
+                                                                   
                                                                    
 
 
@@ -218,7 +209,28 @@
     </footer>
     <!-- footer section -->
     <!-- jQery -->
+    <script>
+        function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
 
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }</script>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

@@ -183,6 +183,7 @@
                                                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                                                 <div class="dropdown-menu dropdown-menu-right">
                                                                     <a class="dropdown-item" asp-controller="InitiatePayment" asp-action="InitPayment" asp-route-id="@obj.PatientInformationId"><i class="fa fa-currency m-r-5"></i>OPD Request</a>
+                                                                    <a class="dropdown-item" asp-controller="Lab" asp-action="Labdisplay" asp-route-id="@obj.PatientInformationId"><i class="fa fa-currency m-r-5"></i>Lab Request</a>
                                                                     <a class="dropdown-item" asp-controller="UpdateRecords" asp-action="Index" asp-route-id="@obj.PatientInformationId"><i class="fa fa-trash-o m-r-5"></i> Edit Record</a>
                                                                 </div>
                                                             </div>

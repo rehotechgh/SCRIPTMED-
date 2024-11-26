@@ -638,9 +638,6 @@ namespace ALENGINE.Migrations
                     b.Property<string>("Investigation5")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LabRequest")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("LabResult")
                         .HasColumnType("nvarchar(max)");
 
@@ -696,6 +693,9 @@ namespace ALENGINE.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RegistrationNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Request")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SetAppointment")
@@ -1218,10 +1218,10 @@ namespace ALENGINE.Migrations
                     b.Property<string>("LabRequestDetails")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PatientInformationId")
-                        .HasColumnType("int");
-
                     b.Property<string>("PatientType")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RegistrationNumber")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("RequestPreparedBy")

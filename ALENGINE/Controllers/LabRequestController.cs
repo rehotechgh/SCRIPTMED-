@@ -1,6 +1,8 @@
 ﻿using ALENGINE.Data;
+using ALENGINE.Models;
 using ALENGINE.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using Syncfusion.EJ2.Linq;
 
 namespace ALENGINE.Controllers
 {
@@ -14,12 +16,13 @@ namespace ALENGINE.Controllers
             _db = db;
         }
 
-        public IActionResult Index(int id)
+        public IActionResult Index()
         {
-            var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.Id == id);
-            var vm = LabRequestViewModel.labviewdt(showdatabyID);
+           // var showdatabyID = _db.LabRequests.FirstOrDefault(m => m.PatientInformationId == id);
+           IEnumerable<LabRequest> objlist = _db.LabRequests.ToList();
 
-            return View();
+
+            return View(objlist);
         }
     }
 }

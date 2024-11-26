@@ -1,0 +1,308 @@
+﻿@model ALENGINE.Models.ViewModel.LabViewModel
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/favicon.png" type="">
+
+    <title> scriptMEDD </title>
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="~/css2/custom.css" rel="stylesheet">
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="~/css2/custom2.css" />
+
+    <!-- font awesome style -->
+    <link href="~/css2/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css2/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/css2/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            scriptMEDD
+
+                        </span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home </a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/ListPatient"> View Records <span class="sr-only">(current)</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/PatientHistory">Patient History</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="doctors.html">User Guide</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end header section -->
+    </div>
+
+    <!-- about section -->
+
+    <section class="about_section layout_padding">
+        <div class="container  ">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="container">
+                        <form method="post" asp-controller="Lab" asp-action="LabRequest">
+                            <div class="row">
+                                <div class="row">
+                                    <h4><CENTER>AGI MATERNITY HOME(AGMH)</CENTER><hr /></h4><br />
+                                    <h5> <CENTER>LAB REQUEST FORM</CENTER></h5><br>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Facility No.</label>
+                                            <div class="col-md-6 mb-4">
+                                                <input type="text" asp-for="FacilityNo" class="form-control" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Surname</label>
+                                            <div class="col-md-6 mb-4">
+                                                @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @readonly = "readonly" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Patient Type</label>
+                                            <div class="col-md-6 mb-4">
+                                                <select class="form-control" asp-for="PatientType">
+                                                    <option>
+                                                        In-Patient
+                                                    </option>
+                                                    <option>
+                                                        Out-Patient
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Othernames</label>
+                                            <div class="col-md-6 mb-4">
+                                                @Html.TextBoxFor(m => m.OtherNames, new { @class = "form-control", @placeholder = "Add generated CCC here", @maxlength = "5" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Requesting Physician</label>
+                                            <div class="col-md-6 mb-4">
+                                                <input type="text" asp-for="RequestingPhysician" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Request Prepared By</label>
+                                            <div class="col-md-6 mb-4">
+                                                <input type="text" asp-for="RequestPreparedBy" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label">Clinical Diagnoses</label>
+                                            <div class="col-md-6 mb-4">
+                                                <input type="text" asp-for="ClinicalDiagnoses" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label"></label>
+                                            <div class="col-md-6 mb-4">
+                                                <input type="hidden" class="form-control">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                        </div>
+                                        <div class="form-group row">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-6 col-form-label"></label>
+                                            <div class="col-md-6 mb-4">
+                                            </div>
+                                            <label class="col-md-6 col-form-label">Request Details</label>
+                                            <div class="col-md-6 mb-4">
+
+                                                <textarea class="form-control" asp-for="LabRequestDetails">
+
+                                                    </textarea>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group row">
+                                        </div>
+                                        <div class="form-group row">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-md-6 col-form-label"></label>
+                                        <div class="col-md-6 mb-4">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-6 col-form-label"></label>
+                                        <div class="col-md-6">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group row">
+                                        <label class="col-md-6 col-form-label"></label>
+                                        <div class="col-md-6 mb-4">
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-6 col-form-label"></label>
+                                        <div class="col-md-6 mb-4">
+                                            <button type="submit" class="btn btn-success"><i class="fas fa-save fa-sm"> </i>Save Record</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+
+                            <script type="text/javascript">
+                                alert("@ViewBag.Message");
+                            </script>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- end about section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+        </div>
+    </footer>
+    <!-- footer section -->
+    <!-- jQery -->
+    <script>
+        function ageCalculator() {
+            var userinput = document.getElementById("DOB").value;
+            var dob = new Date(userinput);
+            if (userinput == null || userinput == '') {
+                document.getElementById("message").innerHTML = "**Choose a date please!";
+                return false;
+            } else {
+
+                //calculate month difference from current date in time
+                var month_diff = Date.now() - dob.getTime();
+
+                //convert the calculated difference in date format
+                var age_dt = new Date(month_diff);
+
+                //extract year from date
+                var year = age_dt.getUTCFullYear();
+
+                //now calculate the age of the user
+                var age = Math.abs(year - 1970);
+
+                //display the calculated age
+                return document.getElementById("result").value = age;
+
+
+
+            }
+        }</script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+
+</body>
+
+</html>

@@ -22,20 +22,22 @@ namespace ALENGINE.Controllers
 
 
         // GET: /<controller>/
-        public IActionResult Index(string Searchstring)
+        public IActionResult Index()
         {
 
             DateTime currentDateTime = DateTime.Today;
             IEnumerable<VitalInfo> objlist = _db.VitalInfos.Where(m => m.DateCreated.Date >= currentDateTime).ToList();
 
 
-            ViewData["CurrentFilter"] = Searchstring;
-            if (!String.IsNullOrEmpty(Searchstring))
-            {
-                objlist = objlist.Where(b => b.RegistrationNumber.Contains(Searchstring));
+          //  ViewData["CurrentFilter"] = Searchstring;
+          //  if (!String.IsNullOrEmpty(Searchstring))
+          //  {
+           //     objlist = objlist.Where(b => b.RegistrationNumber.Contains(Searchstring));
 
 
-            }
+           // }
+
+
             return View(objlist);
         }
     }

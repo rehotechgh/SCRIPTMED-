@@ -3,24 +3,196 @@
   "WorkspaceRootPath": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\configuration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\configuration\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\ghs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\ghs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\addanc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addanc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\opd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\opd\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\opdreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\opdreport\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\records\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\records\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\opdreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\opdreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\consultinglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\consultinglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125235318_vbnjuj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125235318_vbnjuj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\labrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\labrequest\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\addconsultingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\addconsultingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125014102_vbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125014102_vbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\patientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\patientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\vitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\vitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\labrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\labrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\labcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\lab\\labdisplay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\lab\\labdisplay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\viewanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\viewanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\addanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\addanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\anccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\anccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\ancrecordlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\ancrecordlist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\opdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\opdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125231711_vbnj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125231711_vbnj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\initiatepayment\\initpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\initiatepayment\\initpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\listpatient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\listpatient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\addconsulting\\labrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addconsulting\\labrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\initiatepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\initiatepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\listpatientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\listpatientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\labviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\labviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\ancviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\ancviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\initiatepaymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\initiatepaymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\labrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\labrequestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\anc\\viewanc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\anc\\viewanc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\anc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\anc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\central.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\central.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\listpatientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\listpatientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\viewancdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\viewancdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\areas\\identity\\data\\alenginecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\areas\\identity\\data\\alenginecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\viewanc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\viewanc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125133000_cvbn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125133000_cvbn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\consultinglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\consultinglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\consultingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\consultingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\listpatient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\listpatient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125112945_vbm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125112945_vbm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\addconsulting\\consult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addconsulting\\consult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\consulting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\consulting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\dispensarylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\dispensarylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\centralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\centralviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125024521_vbnl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125024521_vbnl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\vitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\vitalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\recordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,22 +203,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125012426_vbh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\labrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\labrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\patientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\patientinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\addconsulting\\labrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addconsulting\\labrequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\consultingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\consultingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125003543_fn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ALENGINE\\Migrations\\20241125003543_fn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,24 +211,8 @@
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addvitals\\viewvitals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\addconsulting\\consult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\addconsulting\\consult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\consultinglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\consultinglist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\labrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\labrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\areas\\identity\\data\\alenginecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\areas\\identity\\data\\alenginecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\listpatient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\listpatient\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\vitalinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,28 +223,8 @@
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\addvitalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\consultinglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\consultinglistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\initialpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\initialpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\models\\viewmodel\\initiatepaymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\models\\viewmodel\\initiatepaymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\views\\initiatepayment\\initpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\views\\initiatepayment\\initpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\initiatepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\initiatepaymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|c:\\users\\kobina lawson\\downloads\\source\\scriptmed-\\alengine\\controllers\\addanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0415673-B0B9-4B15-8AD4-FF5BDBB4E889}|ALENGINE\\ALENGINE.csproj|solutionrelative:alengine\\controllers\\addanccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,37 +234,606 @@
       "DocumentGroups": [
         {
           "DockedWidth": 262,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Configuration\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\Configuration\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Configuration\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\Configuration\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:26:52.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20241125014102_vbh.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125014102_vbh.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125014102_vbh.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125014102_vbh.cs",
-              "RelativeToolTip": "ALENGINE\\Migrations\\20241125014102_vbh.cs",
-              "ViewState": "AgIAAKgDAAAAAAAAAAAowGwBAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:41:03.31Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\GHS\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\GHS\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\GHS\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\GHS\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:19:04.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\OPDReport\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\OPDReport\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\OPDReport\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\OPDReport\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAIMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:10:50.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\OPD\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\OPD\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\OPD\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\OPD\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAADUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:07:10.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RecordsController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\RecordsController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\RecordsController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\RecordsController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\RecordsController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Records\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\Records\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Records\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\Records\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAADZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T00:00:38.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241125235318_vbnjuj.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125235318_vbnjuj.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125235318_vbnjuj.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125235318_vbnjuj.cs",
+              "RelativeToolTip": "ALENGINE\\Migrations\\20241125235318_vbnjuj.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:35:37.476Z",
+              "WhenOpened": "2024-11-25T23:53:18.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LabController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\LabController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\LabController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\LabController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\LabController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:55:36.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LabRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\LabRequest.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\LabRequest.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\LabRequest.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\LabRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:50:07.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddANC\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\AddANC\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddANC\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\AddANC\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T12:13:37.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "OPDReportController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\OPDReportController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\OPDReportController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\OPDReportController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\OPDReportController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAlwCwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:58:26.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PatientInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\PatientInformation.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\PatientInformation.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\PatientInformation.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\PatientInformation.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA7wCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:51:05.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ViewANCController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ViewANCController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ViewANCController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ViewANCController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\ViewANCController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAowLkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:48:32.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ConsultingList\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ConsultingList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ConsultingList\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ConsultingList\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAlwFwAAADvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:41:30.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddConsultingController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddConsultingController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\AddConsultingController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddConsultingController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\AddConsultingController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:34:29.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\LabRequest\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\LabRequest\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\LabRequest\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\LabRequest\\Index.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAIwIIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T07:49:55.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Labdisplay.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Lab\\Labdisplay.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\Lab\\Labdisplay.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\Lab\\Labdisplay.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\Lab\\Labdisplay.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwFYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T23:11:42.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddANCController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddANCController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\AddANCController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddANCController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\AddANCController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:05:37.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ANCController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ANCController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ANCController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ANCController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\ANCController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwEIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:09:59.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ANCRecordList\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ANCRecordList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ANCRecordList\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ANCRecordList\\Index.cshtml",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAALgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T12:15:01.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OPDController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\OPDController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\OPDController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\OPDController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\OPDController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:30:53.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241125231711_vbnj.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125231711_vbnj.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125231711_vbnj.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125231711_vbnj.cs",
+              "RelativeToolTip": "ALENGINE\\Migrations\\20241125231711_vbnj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T23:17:12.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "InitPayment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwLAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T11:59:12.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ListPatient\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ListPatient\\Index.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALkAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T07:45:07.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InitiatePaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\InitiatePaymentController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\InitiatePaymentController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\InitiatePaymentController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\InitiatePaymentController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:23:03.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ListPatientController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ListPatientController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ListPatientController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ListPatientController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\ListPatientController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T10:56:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LabViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\LabViewModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\LabViewModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\LabViewModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\LabViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:38:41.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LabRequest.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
+              "ViewState": "AgIAAB4BAAAAAAAAAAAgwDcBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T15:23:51.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ANCViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ANCViewModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\ANCViewModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ANCViewModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\ANCViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvxsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:21:53.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ViewANC.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ANC\\ViewANC.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ANC\\ViewANC.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ANC\\ViewANC.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ANC\\ViewANC.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T14:02:30.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InitiatePaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:24:54.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LabRequestController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\LabRequestController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\LabRequestController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\LabRequestController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\LabRequestController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T07:46:01.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ViewANCDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ViewANCDetailsModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\ViewANCDetailsModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ViewANCDetailsModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\ViewANCDetailsModel.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAqwHcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:31:46.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwDkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T22:18:41.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ANC.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ANC.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ANC.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ANC.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ANC.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:46:11.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Central.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Central.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\Central.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Central.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\Central.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:14:04.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ALENGINEContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
+              "RelativeToolTip": "ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAtwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T12:53:20.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ViewANC\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ViewANC\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ViewANC\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ViewANC\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T12:16:58.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ConsultingListController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ConsultingListController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ConsultingListController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ConsultingListController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\ConsultingListController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:20:02.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20241125133000_cvbn.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125133000_cvbn.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125133000_cvbn.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125133000_cvbn.cs",
+              "RelativeToolTip": "ALENGINE\\Migrations\\20241125133000_cvbn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:30:00.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ConsultingViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAG0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T00:06:47.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Details.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\ListPatient\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Details.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\ListPatient\\Details.cshtml",
+              "ViewState": "AgIAACEBAAAAAAAAAAAAAKgBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T23:57:27.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20241125112945_vbm.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125112945_vbm.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125112945_vbm.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125112945_vbm.cs",
+              "RelativeToolTip": "ALENGINE\\Migrations\\20241125112945_vbm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:29:45.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Consult.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T15:14:19.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Consulting.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Consulting.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\Consulting.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Consulting.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\Consulting.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:51:13.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\DispensaryList\\Index.cshtml",
+              "RelativeDocumentMoniker": "ALENGINE\\Views\\DispensaryList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\DispensaryList\\Index.cshtml",
+              "RelativeToolTip": "ALENGINE\\Views\\DispensaryList\\Index.cshtml",
+              "ViewState": "AgIAANYAAAAAAAAAAAAIwOMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T02:48:49.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CentralViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\CentralViewModel.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\CentralViewModel.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\CentralViewModel.cs",
+              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\CentralViewModel.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwF4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:48:41.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20241125024521_vbnl.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125024521_vbnl.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125024521_vbnl.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125024521_vbnl.cs",
+              "RelativeToolTip": "ALENGINE\\Migrations\\20241125024521_vbnl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T02:45:21.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "20241125012426_vbh.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125012426_vbh.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125012426_vbh.cs",
@@ -152,51 +841,23 @@
               "RelativeToolTip": "ALENGINE\\Migrations\\20241125012426_vbh.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T01:24:26.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T01:24:26.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddConsultingController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddConsultingController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\AddConsultingController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddConsultingController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\AddConsultingController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAxwCcAAABWAAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "RecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\RecordsController.cs",
+              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\RecordsController.cs",
+              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\RecordsController.cs",
+              "RelativeToolTip": "ALENGINE\\Controllers\\RecordsController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T00:34:29.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T01:35:37.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ListPatientController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ListPatientController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ListPatientController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ListPatientController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\ListPatientController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T10:56:08.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Central.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Central.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Models\\Central.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\Central.cs",
-              "RelativeToolTip": "ALENGINE\\Models\\Central.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAA4wGMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:14:04.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 47,
               "Title": "VitalInfo.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\VitalInfo.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Models\\VitalInfo.cs",
@@ -204,64 +865,11 @@
               "RelativeToolTip": "ALENGINE\\Models\\VitalInfo.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA0wBYAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T12:04:54.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T12:04:54.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LabRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\LabRequest.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Models\\LabRequest.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\LabRequest.cs",
-              "RelativeToolTip": "ALENGINE\\Models\\LabRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:50:07.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LabRequest.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
-              "RelativeDocumentMoniker": "ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
-              "RelativeToolTip": "ALENGINE\\Views\\AddConsulting\\LabRequest.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFYAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T15:23:51.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ConsultingViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
-              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\ConsultingViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T00:06:47.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PatientInformation.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\PatientInformation.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Models\\PatientInformation.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\PatientInformation.cs",
-              "RelativeToolTip": "ALENGINE\\Models\\PatientInformation.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA1wCUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:51:05.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 50,
               "Title": "20241125003543_fn.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Migrations\\20241125003543_fn.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Migrations\\20241125003543_fn.cs",
@@ -269,12 +877,11 @@
               "RelativeToolTip": "ALENGINE\\Migrations\\20241125003543_fn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T00:35:43.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T00:35:43.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 51,
               "Title": "Viewvitals.cshtml",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddVitals\\Viewvitals.cshtml",
               "RelativeDocumentMoniker": "ALENGINE\\Views\\AddVitals\\Viewvitals.cshtml",
@@ -282,25 +889,11 @@
               "RelativeToolTip": "ALENGINE\\Views\\AddVitals\\Viewvitals.cshtml",
               "ViewState": "AgIAAF4AAAAAAAAAAAAAAGYAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T11:48:37.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T11:48:37.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Consult.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
-              "RelativeDocumentMoniker": "ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
-              "RelativeToolTip": "ALENGINE\\Views\\AddConsulting\\Consult.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T15:14:19.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 52,
               "Title": "LabRequestViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\LabRequestViewModel.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\LabRequestViewModel.cs",
@@ -308,49 +901,11 @@
               "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\LabRequestViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T13:02:14.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:02:14.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ConsultingList\\Index.cshtml",
-              "RelativeDocumentMoniker": "ALENGINE\\Views\\ConsultingList\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ConsultingList\\Index.cshtml",
-              "RelativeToolTip": "ALENGINE\\Views\\ConsultingList\\Index.cshtml",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAALAAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-24T12:41:30.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ALENGINEContext.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
-              "RelativeToolTip": "ALENGINE\\Areas\\Identity\\Data\\ALENGINEContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAywBwAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T12:53:20.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Details.cshtml",
-              "RelativeDocumentMoniker": "ALENGINE\\Views\\ListPatient\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\ListPatient\\Details.cshtml",
-              "RelativeToolTip": "ALENGINE\\Views\\ListPatient\\Details.cshtml",
-              "ViewState": "AgIAAIwBAAAAAAAAAADwv5kBAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T23:57:27.119Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 53,
               "Title": "VitalInfoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\VitalInfoViewModel.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\VitalInfoViewModel.cs",
@@ -362,19 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ConsultingListController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ConsultingListController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\ConsultingListController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\ConsultingListController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\ConsultingListController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:20:02.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 54,
               "Title": "AddVitalsController.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddVitalsController.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Controllers\\AddVitalsController.cs",
@@ -386,31 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "InitPayment.cshtml",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
-              "RelativeDocumentMoniker": "ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
-              "RelativeToolTip": "ALENGINE\\Views\\InitiatePayment\\InitPayment.cshtml",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwLAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T11:59:12.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "InitiatePaymentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
-              "RelativeToolTip": "ALENGINE\\Models\\ViewModel\\InitiatePaymentViewModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:24:54.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 55,
               "Title": "InitialPayment.cs",
               "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Models\\InitialPayment.cs",
               "RelativeDocumentMoniker": "ALENGINE\\Models\\InitialPayment.cs",
@@ -419,30 +938,6 @@
               "ViewState": "AgIAABAAAAAAAAAAAAAzwBUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T11:23:37.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "InitiatePaymentController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\InitiatePaymentController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\InitiatePaymentController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\InitiatePaymentController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\InitiatePaymentController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:23:03.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AddANCController.cs",
-              "DocumentMoniker": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddANCController.cs",
-              "RelativeDocumentMoniker": "ALENGINE\\Controllers\\AddANCController.cs",
-              "ToolTip": "C:\\Users\\Kobina Lawson\\Downloads\\source\\SCRIPTMED-\\ALENGINE\\Controllers\\AddANCController.cs",
-              "RelativeToolTip": "ALENGINE\\Controllers\\AddANCController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T11:05:37.287Z"
             }
           ]
         }

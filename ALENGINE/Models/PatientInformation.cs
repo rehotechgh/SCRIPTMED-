@@ -39,6 +39,8 @@ namespace ALENGINE.Models
        
         //navigation
         public List<Central>? Centrals { get; set; }
+       // public List<ANC>? ANCs { get; set; }
+        
 
 
 

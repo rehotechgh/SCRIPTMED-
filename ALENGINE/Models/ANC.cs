@@ -70,6 +70,8 @@ namespace ALENGINE.Models
         public string? TUNIT { get; set; }
         public bool? ClaimsStatus { get; set; }
         public int? ANCCount { get; set; }
+       // public int PatientInformationId { get; set; }
+
         public DateTime DateCreated { get; set; } = DateTime.Now;
 
     }

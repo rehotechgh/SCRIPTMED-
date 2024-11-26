@@ -5,6 +5,7 @@ namespace ALENGINE.Models.ViewModel
 	{
         public int Id { get; set; }
         public string? RegistrationNumber { get; set; }
+     //   public int PatientInformationId { get; set; }
         public string? Surname { get; set; }
         public string? OtherNames { get; set; }
         public string? DOB { get; set; }
@@ -34,7 +35,7 @@ namespace ALENGINE.Models.ViewModel
                 RegistrationNumber = initpayment.RegistrationNumber,
                 Surname = initpayment.Surname,
                 OtherNames = initpayment.OtherNames,
-
+             //   PatientInformationId = initpayment.PatientInformationId,
                 DOB = initpayment.DOB,
                 Age = initpayment.Age,
                 Sex = initpayment.Sex

@@ -85,7 +85,7 @@
                         <div class="container">
                             <br />
                             <div class="row">
-                                <h4>Consulting  | Add Consulting <hr /></h4>
+                                <h4>Consulting  | Add Consulting   <hr /></h4>
                             </div>
                         </div>
                         <div class="content">
@@ -188,7 +188,7 @@
                                         <div class="row">
 
                                             <div class="col-md-12">
-                                                <textarea asp-for="HistoryIntake" class="form-control" required>
+                                                <textarea asp-for="HistoryIntake" class="form-control" >
 
                                       </textarea>
 
@@ -204,7 +204,7 @@
 
                             </div>
                             <br />
-                            <br />
+                          
                             <div>
 
                                 <!--
@@ -397,26 +397,15 @@
                             </div>
                         </div>
                         <br />
-                        <div class="row">
+                        <!--<div class="row">
 
-                            <div class="col-sm-12">
-                                <label>Lab Request </label>
-
-                                <div class="row">
-
-                                    <div class="col-md-12">
-                                        <textarea asp-for="LabResult" class="form-control" required>
-
-                                      </textarea>
-
-                                    </div>
+                             <div class="col-sm-12">
+                                 <label>Lab Request </label>
 
 
-                                </div>
-                            </div>
-                        </div>
-                        <br />
-                        <br />
+                             </div>
+                         </div>-->
+                       
                         <div class="row">
 
                             <div class="col-sm-12">
@@ -425,7 +414,7 @@
                                 <div class="row">
 
                                     <div class="col-md-12">
-                                        <textarea asp-for="LabResult" class="form-control" required>
+                                        <textarea asp-for="LabResult" class="form-control" >
 
                                       </textarea>
 
@@ -444,7 +433,7 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <label>Type of Services</label>
-                                            <select name="TypeOfService" class="form-control" required>
+                                            <select name="TypeOfService" class="form-control" >
                                                 <option selected="selected">Select only one</option>
                                                 <option value="Outpatients">Outpatients</option>
                                                 <option value="In-Patients">In-Patients</option>
@@ -455,7 +444,7 @@
                                             </select>
                                             <div>
                                                 <label>Outcome</label>
-                                                <select name="Outcome" class="form-control" required>
+                                                <select name="Outcome" class="form-control" >
                                                     <option selected="selected">Select Outcome</option>
                                                     <option value="Discharged">Discharged</option>
                                                     <option value="Died">Died</option>
@@ -472,10 +461,10 @@
                                             <div class="row">
                                                 <div class="col-md-6">
 
-                                                    <input type="text" class="form-control" asp-for="VisitationType" required />
+                                                    <input type="text" class="form-control" asp-for="VisitationType"  />
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <input type="date" asp-for="VisitationDate" class="form-control" required />
+                                                    <input type="date" asp-for="VisitationDate" class="form-control"  />
                                                 </div>
 
                                             </div>
@@ -704,22 +693,22 @@
                                                 </div>
                                                 <div class="col-md-3">
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG1" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG1" class="form-control" placeholder="Dossage"  />
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG2" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG2" class="form-control" placeholder="Dossage"  />
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG3" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG3" class="form-control" placeholder="Dossage"  />
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG4" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG4" class="form-control" placeholder="Dossage"  />
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG5" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG5" class="form-control" placeholder="Dossage"  />
                                                     </div>
                                                     <div class="form-group">
-                                                        <input type="text" asp-for="DIDRG6" class="form-control" placeholder="Dossage" required />
+                                                        <input type="text" asp-for="DIDRG6" class="form-control" placeholder="Dossage"  />
                                                        
                                                     </div>
                                                     <input type="text" asp-for="TUNIT" value="Consulting" class="form-control" hidden="hidden" />

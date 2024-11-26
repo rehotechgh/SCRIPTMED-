@@ -6,6 +6,7 @@ namespace ALENGINE.Models.ViewModel
 
         public int Id { get; set; }
         public string? RegistrationNumber { get; set; }
+        public int? PatientInformationId { get; set; }
         public string? Surname { get; set; }
         public string? OtherNames { get; set; }
         public string? DOB { get; set; }

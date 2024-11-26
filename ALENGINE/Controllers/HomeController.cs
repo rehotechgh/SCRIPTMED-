@@ -28,7 +28,7 @@ namespace ALENGINE.Controllers
             _db = db;
         }
 
-        [Authorize]
+   //     [Authorize]
         public IActionResult Index()
         {
             totalrecords();
@@ -39,7 +39,7 @@ namespace ALENGINE.Controllers
         }
 
 
-        [Authorize]
+     //   [Authorize]
         private void totalrecords()
         {
 
@@ -47,7 +47,7 @@ namespace ALENGINE.Controllers
             ViewBag.totalrecords = totalrecords;
         }
 
-        [Authorize]
+     //   [Authorize]
         private void totalmales()
         {
 
@@ -55,7 +55,7 @@ namespace ALENGINE.Controllers
             ViewBag.totalmales = totalmales.Count();
         }
 
-        [Authorize]
+     //   [Authorize]
         private void totalfemales()
         {
 

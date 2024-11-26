@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ALENGINE.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class OPDReportController : Controller
     {
         //injection

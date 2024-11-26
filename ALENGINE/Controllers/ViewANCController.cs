@@ -29,7 +29,7 @@ namespace ALENGINE.Controllers
             // return View(obj);
             adddescription();
             medlist();
-           // DiagnosisCategory();
+           DiagnosisCategory();
             var showdatabyID = _db.ANCs.FirstOrDefault(m => m.Id == id);
             var vm = ViewANCDetailsModel.ANCDetails(showdatabyID);
 
@@ -52,7 +52,7 @@ namespace ALENGINE.Controllers
                 Sex = obj.Sex,
                 Examination = obj.Examination,
                 Treatment = obj.Treatment,
-                LabRequest = obj.LabRequest,
+                Request = obj.LabRequest,
                 LabType = obj.LabType,
                 Dispensary = obj.Dispensary,
                 DispensaryType = obj.DispensaryType,
@@ -125,11 +125,15 @@ namespace ALENGINE.Controllers
                 IGDRG4 = obj.IGDRG4,
                 IGDRG5 = obj.IGDRG5,
                 TUNIT = obj.TUNIT,
+               // PatientInformationId =obj.PatientInformationId,
+            
                 HistoryIntake = obj.HistoryIntake,
                 NoOfPitTaken = obj.NoOfPitTaken,
                 HIVStatus = obj.HIVStatus,
                 SicklingStatus = obj.SicklingStatus,
                 ClaimsStatus = obj.ClaimsStatus
+              
+               
 
 
 
@@ -168,18 +172,18 @@ namespace ALENGINE.Controllers
             );
             ViewBag.Medlist = description;
         }
-      //  private void DiagnosisCategory()
-      //  {
+        private void DiagnosisCategory()
+        {
 
-       //     var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
-         //   {
-           //     Text = x.Id,
-             //   Value = x.Id
-          //  }
+            var description = _db.DiagnosisCategories.Select(x => new SelectListItem()
+            {
+                Text = x.Category,
+                Value = x.Category
+            }
 
-         //   );
-         //   ViewBag.DiagnosisCategory = description;
-      //  }
+            );
+            ViewBag.DiagnosisCategory = description;
+        }
     }
 }
 

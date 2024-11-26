@@ -92,7 +92,7 @@
                 OtherNames = obj.OtherNames,
                 Examination = obj.Examination,
                 Treatment = obj.Treatment,
-                LabRequest = obj.LabRequest,
+                LabRequest = obj.Request,
                 LabType = obj.LabType,
                 Dispensary = obj.DispensaryType,
                 SetAppointment = obj.SetAppointment,

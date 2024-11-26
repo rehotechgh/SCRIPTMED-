@@ -37,24 +37,31 @@ namespace ALENGINE.Controllers
             adddescription();
             medlist();
            DiagnosisCategory();
-            var showdatabyID = _db.VitalInfos.Include(m=>m.LabRequests).FirstOrDefault(m => m.Id == id);
+            var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.PatientInformationId == id);
             var vm = ConsultingViewModel.ViewInitData(showdatabyID);
+            ViewBag.lab = showdatabyID;
 
 
 
             return View(vm);
         }
+
         public IActionResult LabRequest(int id)
         {
             // return View(obj);
-          
-            var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.Id == id);
+            adddescription();
+            medlist();
+            DiagnosisCategory();
+            var showdatabyID = _db.VitalInfos.FirstOrDefault(m => m.PatientInformationId == id);
             var vm = ConsultingViewModel.ViewInitData(showdatabyID);
+            ViewBag.lab = showdatabyID;
 
 
 
             return View(vm);
         }
+
+
         [HttpPost]
         public IActionResult LabRequest([FromForm] ConsultingViewModel obj)
         {
@@ -62,16 +69,13 @@ namespace ALENGINE.Controllers
 
             {
                
-                PatientInformationId = obj.PatientInformationId,
+              //  PatientInformationId = obj.PatientInformationId,
                 FacilityNo = obj.FacilityNo,
-                PatientType=obj.PatientType,
+                PatientType = obj.PatientType,
                 RequestingPhysician = obj.RequestingPhysician,
                 RequestPreparedBy = obj.RequestPreparedBy,
                 ClinicalDiagnoses = obj.ClinicalDiagnoses,
                 LabRequestDetails = obj.LabRequestDetails
-
-
-
 
 
             };
@@ -79,11 +83,10 @@ namespace ALENGINE.Controllers
             _db.SaveChanges();
             // return RedirectToAction("ServiceRequest", "GeneralUser");
 
-            ViewBag.Message = "Lab Details Saved Successfully!";
+            ViewBag.Message = "Lab Request  Details Saved Successfully!";
             ModelState.Clear();
             return View();
         }
-
 
         [HttpPost]
         public IActionResult Consult([FromForm] ConsultingViewModel obj)
@@ -96,7 +99,7 @@ namespace ALENGINE.Controllers
                 OtherNames = obj.OtherNames,
                 Examination= obj.Examination,
                 Treatment = obj.Treatment,
-                LabRequest = obj.LabRequest,
+                Request = obj.Request,
                 LabType = obj.LabType,
                 Dispensary = obj.DispensaryType,
                 SetAppointment = obj.SetAppointment,
@@ -219,7 +222,7 @@ namespace ALENGINE.Controllers
 
           );
          ViewBag.DiagnosisCategory = description;
-      }
+       }
     }
 }
 

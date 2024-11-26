@@ -3,7 +3,8 @@
     public class LabRequest
     {
         public int Id { get; set; }
-        public int PatientInformationId { get; set; }
+       
+        public string? RegistrationNumber { get; set; }
         public string? FacilityNo { get; set; }
         public string? PatientType { get; set; }
         public string? RequestingPhysician { get; set; }

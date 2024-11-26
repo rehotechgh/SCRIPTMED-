@@ -18,7 +18,7 @@ namespace ALENGINE.Models.ViewModel
         public string? BloodPressure { get; set; }
         public string? Examination { get; set; }
         public string? Treatment { get; set; }
-        public string? LabRequest { get; set; }
+        public string? Request { get; set; }
         public string? LabType { get; set; }
         public string? LabResult { get; set; }
         public string? Dispensary { get; set; }
